@@ -10,8 +10,19 @@ setTimeout(function() { fichierPopup() } , 10000) ;
 </script>
 
 
-
-
+<script type="text/javascript">
+setTimeout(
+            function(){
+                document.getElementById('popup').style.display= 'block';
+            }, 10000);
+        
+        document.getElementById('Non').addEventListener('click', function(){
+            document.getElementById('popup').style.display = 'none';
+        });
+        document.getElementById('ModePsychédélique').addEventListener('click', function(){
+            document.getElementById('popup').style.backgroundColor = 'magenta';
+        });
+    </script>
 
 
 
