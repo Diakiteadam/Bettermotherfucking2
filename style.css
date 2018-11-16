@@ -27,7 +27,7 @@ body, html {
     margin-top: 200px;
 }
 
-#popup 
+#fichierPopup 
 {
 	height: 300px;
 	width: 300px;
@@ -44,11 +44,11 @@ body, html {
 
 }
 
-#popup h2 {
+#fichierPopup h2 {
 	padding-top: 60px;
 }
 
-#popup a, #Non 
+#fichierPopup a, #Non 
 {
 	height: 50px;
 	width: 300px;
@@ -62,7 +62,7 @@ body, html {
 	padding: 10px;
 }
 
-#popup a:hover, #Non:hover
+#fichierPopup a:hover, #Non:hover
 {
 	background-color: #ffffff;
 }
