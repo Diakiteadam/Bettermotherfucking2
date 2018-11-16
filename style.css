@@ -1,15 +1,32 @@
-@charset "UTF-8";
-
-body, html {
-    padding: auto;
-    margin: 40px auto;
-    background-color: #EEEEEE;
-    color :#444;
-    max-width: 650px;
-    line-height: 1.6;
-    font-size: 18px;
+body
+{
+	max-width: 650px;
+	margin: 40px auto;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #444;
+	padding: 0 10px;
 }
-
+.citation
+{
+	margin-top: 0;
+	margin-left: 40px;
+}
+q
+{
+	margin-left: 40px;
+}
+h1, h2, h3
+{
+	line-height: 1.2;
+}
+.bold
+{
+	font-weight: bold;
+}
+.monospace
+{
+	font-family: monospace;
 }
 #popup
 {
@@ -48,12 +65,3 @@ body, html {
 {
 	background-color: #ff6666;
 }
-
-
-
-
-
-
-
-
-
