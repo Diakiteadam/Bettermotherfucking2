@@ -68,6 +68,21 @@ body, html {
 }
 
 
+ <script type="text/javascript">
+
+    
+        
+        setTimeout(
+            function(){
+                document.getElementById('fichierPopup').style.display= 'block';
+            }, 10000);
+        
+        document.getElementById('Non').addEventListener('click', function(){
+            document.getElementById('fichierPopup').style.display = 'none';
+        });
+      
+    </script>
+
 
 
 
