@@ -7,7 +7,7 @@ else { alert('Non merci') ; } }
 
 setTimeout(function() { fichierPopup() } , 10000) ;
 }
-
+</script>
 
 
 
