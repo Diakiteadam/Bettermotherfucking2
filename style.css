@@ -10,78 +10,44 @@ body, html {
     font-size: 18px;
 }
 
-.button_container {
-    width: 100%
-    text-align: auto;
 }
-
-#button_modal {
-    height: 50px;
-    width: 300px;
-    background-color: #e74c3c;
-    color: #ffffff;
-    font-family: helvetica;
-    font-size: 30px;
-    border: none;
-    cursor: pointer;
-    margin-top: 200px;
-}
-
-#fichierPopup 
+#popup
 {
-	height: 300px;
-	width: 300px;
-	background-color: #edabcd;
-	font-family: helvetica;
-	text-align: center;
-	color: #95a5a6;
-	position: auto;
+	position: fixed;
+	z-index: 10;
+	background-color: #f5f5f5;
+	min-height: 350px;
+	color: #000;
 	top: 20px;
-	left: 35%;
+	left: 25%;
+	right: 25%;
+	bottom: 100px;
 	text-align: center;
 	padding-top: 5%;
-	min-height: 200px;
-
+	display: none;
+	border-radius: 5px;
+	border: 1px solid #ccc;
+	box-shadow: 2px 2px 3px #6d6d6d;
 }
 
-#fichierPopup h2 {
-	padding-top: 60px;
+#popup h2 {
+	margin-bottom: 10%;
 }
-
-#fichierPopup a, #Non 
+#popup a, #Non
 {
-	height: 50px;
-	width: 300px;
-	background-color: #e74c3c;
-	color: #ffffff;
-	font-family: helvetica;
-	font-size: 20px;
-	border: none;
-	cursor: pointer;
-	margin-top: 200px
+	text-decoration: none;
+	color: #FFF;
+	background-color: red;
 	padding: 10px;
+	width: 100px;
+	margin: 0 auto;
+	display: inline;
+	cursor: pointer;
 }
-
-#fichierPopup a:hover, #Non:hover
+#popup a:hover, #Non:hover
 {
-	background-color: #ffffff;
+	background-color: #ff6666;
 }
-
-
- <script type="text/javascript">
-
-        
-        setTimeout(
-            function(){
-                document.getElementById('fichierPopup').style.display= 'block';
-            }, 10000);
-        
-        document.getElementById('Non').addEventListener('click', function(){
-            document.getElementById('fichierPopup').style.display = 'none';
-        });
-      
-    </script>
-
 
 
 
