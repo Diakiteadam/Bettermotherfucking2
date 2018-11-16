@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+body, html {
+    padding: auto;
+    margin: 40px auto;
+    background-color: #EEEEEE;
+    color :#444;
+    max-width: 650px;
+    line-height: 1.6;
+    font-size: 18px;
+}
+
+.button_container {
+    width: 100%
+    text-align: auto;
+}
+
+#button_modal {
+    height: 50px;
+    width: 300px;
+    background-color: #e74c3c;
+    color: #ffffff;
+    font-family: helvetica;
+    font-size: 30px;
+    border: none;
+    cursor: pointer;
+    margin-top: 200px;
+}
+
+#popup 
+{
+	height: 300px;
+	width: 300px;
+	background-color: #edabcd;
+	font-family: helvetica;
+	text-align: center;
+	color: #95a5a6;
+	position: auto;
+	top: 20px;
+	left: 35%;
+	text-align: center;
+	padding-top: 5%;
+	min-height: 200px;
+
+}
+
+#popup h2 {
+	padding-top: 60px;
+}
+
+#popup a, #Non 
+{
+	height: 50px;
+	width: 300px;
+	background-color: #e74c3c;
+	color: #ffffff;
+	font-family: helvetica;
+	font-size: 20px;
+	border: none;
+	cursor: pointer;
+	margin-top: 200px
+	padding: 10px;
+}
+
+#popup a:hover, #Non:hover
+{
+	background-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
